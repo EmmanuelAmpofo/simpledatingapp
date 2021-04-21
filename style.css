@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#header{
+    background-color: rgb(148, 252, 138);
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+h1{
+    vertical-align: middle;
+    color: rgb(92, 87, 88);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.row{
+    margin: 10px 20px;
+     text-align: center;
+     float: left;
+}
+#results{
+    margin: 30px 20px 10px 0px;
+}
+.person-row{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgb(148, 252, 138);
+    border: 2px solid;
+    width: 100%;
+    float: left;
+}
+.person-row:hover{
+    background-color: rgb(129, 126, 126);
+    color: white;
+}
+.personal-info{
+    float: left;
+    
+}
+.person-row img{
+    float: inline-end;
+    margin-right: 20px;
+     
+}
